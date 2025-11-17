@@ -1,0 +1,27 @@
+{
+  "summary": {
+    "test_samples": 7731,
+    "spike_rate": 0.03789936618807399
+  },
+  "model_comparison": {
+    "baseline": {
+      "run_id": "321ecd1c337f4ed89ef8cab498f3b85f",
+      "metrics": {
+        "pr_auc": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    },
+    "ml_model": {
+      "run_id": "af0d41fad53a49bbbd32b269b3c05478",
+      "metrics": {
+        "pr_auc": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0
+      }
+    }
+  },
+  "test_metrics": {}
+}

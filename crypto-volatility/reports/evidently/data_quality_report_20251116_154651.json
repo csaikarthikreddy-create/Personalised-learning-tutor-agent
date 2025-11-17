@@ -1,0 +1,21 @@
+{
+  "metadata": {},
+  "metrics": [
+    {
+      "type": "DataSummaryPreset",
+      "columns": [
+        "price",
+        "midprice",
+        "return_1s",
+        "return_5s",
+        "return_30s",
+        "return_60s",
+        "volatility",
+        "trade_intensity",
+        "spread_abs",
+        "spread_rel",
+        "order_book_imbalance"
+      ]
+    }
+  ]
+}
