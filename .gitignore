@@ -1,0 +1,80 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# API Keys and credentials
+*_key
+*_KEY
+*api_key*
+*API_KEY*
+credentials.json
+secrets.json
+config.local.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Model artifacts and large files
+*.pkl
+*.h5
+*.pt
+*.pth
+models/artifacts/
+*.weights
+
+# Data files (if large)
+*.csv
+*.parquet
+data/raw/
+data/processed/
+
+# Cache
+.cache/
+*.cache
+hf_cache/
+
